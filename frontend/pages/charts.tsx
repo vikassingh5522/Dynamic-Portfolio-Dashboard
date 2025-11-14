@@ -32,6 +32,7 @@ export default function ChartsPage() {
 
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    
                     <PieChart labels={sectorLabels} values={sectorTotals} />
                     <BarChart labels={labels} invested={invested} present={present} />
                 </div>
